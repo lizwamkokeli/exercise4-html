@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From exercise</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form method ="POST" action="Your_Lecture_URL_here"></form>
+    <form action=" submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120"><br><br>
+
+        <label for ="date_of_birth"></label>Date of Birth:</label>
+        <input type="date" id="date_of_birth" name="date_of_birth"><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="country">Country:</label>
+        <label type="email" id="email" name="email" required><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <input type="submit" value="submit">
+        </form>
+        <hr>
+        <h2>Search Form</h2>
+        <form method="get" action="YOUR_LECTURE_URL_HERE"></form>
+        <label for="search_name">Search:</label>
+        <input type="text" id="search_name" name="search_name" required><br><br>
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
